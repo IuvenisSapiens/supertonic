@@ -36,6 +36,7 @@ Arabic (`ar`), Bulgarian (`bg`), Croatian (`hr`), Czech (`cs`), Danish (`da`), D
 
 ### 📰 Update News
 
+- **2026.05.20** - **Supertonic 3** is now officially supported in **[Supertone Play](https://play.supertone.ai/)** and the **[Supertone API](https://www.supertone.ai/ko/api)**. Visit Play or the API if you want a managed content creation workflow with diverse preset voices and zero-shot voice cloning.
 - **2026.05.18** - Python SDK v1.3.1 adds **`supertonic serve`**, a local HTTP server with native `/v1/tts` and OpenAI-compatible `/v1/audio/speech` endpoints. See the [serve documentation](https://supertone-inc.github.io/supertonic-py/cli/serve/).
 - **2026.05.18** - **[Voice Builder](https://supertonic.supertone.ai/voice-builder)** now supports **Supertonic 3**. Create a permanent custom voice profile for Supertonic and download version-specific JSON files for both Supertonic 2 and Supertonic 3. If you already created a Supertonic 2 voice, the matching Supertonic 3 JSON is now available from [My Page](https://supertonic.supertone.ai/my-page).
 - **2026.04.29** - 🎉 **Supertonic 3** released with **31-language support**, improved reading accuracy, fewer repeat/skip failures, and v2-compatible public ONNX assets. [Demo](https://huggingface.co/spaces/Supertone/supertonic-3) | [Models](https://huggingface.co/Supertone/supertonic-3)
@@ -288,7 +289,7 @@ At about 99M parameters across the public ONNX assets, Supertonic 3 is much smal
 
 This open-weight repository focuses on fixed-voice, local TTS and does not include an official voice-cloning pipeline. If you want to bring your own voice to local Supertonic deployment, [Voice Builder](https://supertonic.supertone.ai/voice-builder) turns a short reference recording into version-specific JSON files for Supertonic 2 and Supertonic 3, so the same custom voice can move with you across supported Supertonic versions.
 
-For a managed creation workflow, [Supertone Play](https://play.supertone.ai/) and the [Supertone API](https://www.supertone.ai/ko/api) provide hosted TTS and voice services with 700+ commercially usable preset voices. You can also listen to Supertonic 3 zero-shot samples on the [official showcase](https://supertonic3.github.io/).
+For a managed creation workflow, **Supertonic 3 is now officially available in [Supertone Play](https://play.supertone.ai/) and the [Supertone API](https://www.supertone.ai/ko/api)**. Use them when you want hosted content creation tools, diverse commercially usable preset voices, zero-shot voice cloning, or API-based integration without managing local model files. You can also listen to Supertonic 3 zero-shot samples on the [official showcase](https://supertonic3.github.io/).
 
 ## Demo
 
@@ -435,6 +436,7 @@ Supertonic is designed to handle complex, real-world text inputs that contain na
 | **VoiceChat** | On-device voice-to-voice LLM chatbot in the browser | [Demo](https://huggingface.co/spaces/RickRossTN/ai-voice-chat) · [GitHub](https://github.com/irelate-ai/voice-chat) |
 | **OmniAvatar** | Talking avatar video generator from photo + speech | [Demo](https://huggingface.co/spaces/alexnasa/OmniAvatar) |
 | **CopiloTTS** | Kotlin Multiplatform TTS SDK via ONNX Runtime | [GitHub](https://github.com/sigmadeltasoftware/CopiloTTS) |
+| **Aftertone** | Local post-reply TTS for Cursor & Claude Code (Supertonic 3 ONNX, on-device daemon) | [GitHub](https://github.com/omarelkhal/aftertone) · [Demo](https://github.com/omarelkhal/aftertone/releases/download/demo-asset/demo.mp4) |
 | **Voice Mixer** | PyQt5 tool for mixing and modifying voice styles | [GitHub](https://github.com/Topping1/Supertonic-Voice-Mixer) |
 | **Supertonic MNN** | Lightweight library based on MNN (fp32/fp16/int8) | [GitHub](https://github.com/vra/supertonic-mnn) · [PyPI](https://pypi.org/project/supertonic-mnn/) |
 | **Transformers.js** | Hugging Face's JS library with Supertonic support | [GitHub PR](https://github.com/huggingface/transformers.js/pull/1459) · [Demo](https://huggingface.co/spaces/webml-community/Supertonic-TTS-WebGPU) |
